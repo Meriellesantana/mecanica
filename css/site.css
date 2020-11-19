@@ -1,0 +1,737 @@
+.braks{
+    display: flex;
+    flex-direction: row;
+    margin-left: -55px;
+    margin-right: 110px;
+    font-size: 200%;
+    line-height: 10px;
+    margin-top: -10px;
+  
+}
+.au{
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana;
+    padding-left: 15px;
+}
+.au:hover{
+    color: rgb(0, 0, 0);
+}
+.ponto{
+
+    color: rgb(223, 139, 14);
+    font-family: cursive;
+    font-size:40px;
+  
+}
+
+.to{
+    display: flex;
+    height: 50px;
+    text-align: right;
+    background-color: rgb(37, 36, 36);
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.çç{ 
+    display: flex;
+    align-content: center;
+    padding-left: 40%;
+
+}
+.top{
+ 
+    color: rgb(46, 45, 45);
+    list-style-type: none;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.topp{
+    color: rgb(202, 200, 197);
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana;  
+}
+.esq{
+
+
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+    font-family: Verdana;
+  
+}
+.dire{
+    line-height: 25px;
+    color:rgb(122, 115, 115);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana;  
+}
+.nav{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    text-align: center;
+}
+.spac{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.direita{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: sans-serif;
+    font-weight: bolder; 
+}
+.direita:hover {
+    background-color: rgb(223, 139, 14);
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#dir{
+    background-color: rgb(223, 139, 14);
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    text-align: right;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: sans-serif;
+    font-weight: bolder; 
+}
+#dir:hover {
+    background-color: rgb(223, 139, 14);
+    color: rgb(3, 3, 3);
+    text-align: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.space{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.fundo{
+    background-image: url('../img/bg_2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 840px;
+    /* padding-bottom: 600px; */
+}
+#fundo{ 
+    padding-top: 250px;
+    padding-left: 150px; 
+}
+.texti{
+    color:  rgb(253, 163, 27);
+    text-align: left;
+    font-size: 25px;
+    font-family: Verdana;
+    line-height: 100px; 
+    text-transform: uppercase;  
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Verdana;    
+}
+.quadr{
+   background-color: rgb(223, 139, 14);
+   color: rgb(248, 248, 248);
+   font-size: 15px;
+   text-decoration: none;
+   padding:13px;
+   font-weight: bold;
+   font-family: Verdana;
+   line-height: 150px;
+}
+.quadr:hover{
+    background-color: rgba(255, 248, 248, 0.144);
+    color: rgb(223, 139, 14);
+    border: solid 2px rgb(223, 139, 14);
+}
+
+.duo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+  
+}
+.blue{
+    background-color: rgb(57, 27, 230);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+.s{
+    color:  rgba(250, 250, 250, 0.39);
+
+}
+
+.orang{
+   
+    background-color:  rgb(223, 139, 14);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 100%;
+     
+}
+.orang:hover{
+    background-color: rgb(62, 31, 238);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.it{
+    display: flex;
+    flex-direction: row;
+}
+.fundoo{
+    background-color: rgb(245, 237, 237);
+}
+.imagem{
+    background-image: url('../img/tab.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-width: 40%;
+    margin-left: 8%;
+}
+.texto{
+    color: rgb(3, 3, 3);
+    background-color: rgb(245, 237, 237);
+    padding: 50px;
+}
+.textii{
+    color:  rgb(253, 163, 27);
+    text-align: left;
+    font-size: 18px;
+    font-family: Verdana;
+    line-height: 3px;
+    text-transform: uppercase; 
+}
+.textt{
+    color: rgb(2, 2, 2);
+    text-align: left;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana;
+    line-height: 40px;
+}
+ .textp{
+    color:  rgb(102, 101, 100);
+    text-align: left;
+    font-size: 15px;
+    font-family: Verdana;
+    line-height: 30px;
+    text-transform: uppercase;  
+}
+ .ativo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mission{
+    background-color: rgb(253, 253, 253);
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;   
+}
+.mission:active{
+    background-color: rgb(15, 90, 187);
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(255, 251, 251);
+    text-decoration: none; 
+}
+.textpp{
+    background-color: rgb(248, 244, 244);
+    color:  rgb(102, 101, 100);
+    text-align: left;
+    font-size: 15px;
+    font-family: Verdana;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.num{
+    background-color: rgb(24, 23, 23);
+    padding-top: 40px;
+    padding-bottom: 40px;  
+}
+.numm{ 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;      
+}
+.nummm{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 60px;       
+}
+.lar{
+    color: rgb(253, 163, 27);
+    list-style-type: none;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana;    
+}
+.cin{
+    color: rgb(128, 128, 128);
+    list-style-type: none;
+    font-size: 15 px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.itii{
+    display: flex;
+    flex-direction: row;
+
+}
+.imm{
+    background-image: url('../img/car.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-y: 45%;
+    min-width: 40%;
+    padding-right: 8%;
+}
+.form{
+    color: rgb(3, 3, 3);
+    background-color: rgb(253, 163, 27);
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.new{
+    background-color: rgb(255, 255, 255);
+    min-width: 100%;
+    min-height: 100%;
+}
+.nl{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10%;
+    list-style-type: none;
+}
+.blog{
+    color: rgb(253, 163, 27);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+ 
+ 
+}
+.lat{
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'cursive';
+    text-align: center;
+    line-height: 60px;
+ 
+}
+.trio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+.homem{
+    background-image: url('../img/homem.jpg');
+    background-repeat: no-repeat;
+    background-size: 106%;
+    padding: 16%;
+    border-radius:10% ;
+
+}
+.mulher{
+    background-image: url('../img/mulher.jpg');
+    background-repeat: no-repeat;
+    background-size: 106%;
+    padding: 16%;
+ 
+}
+.capo{
+    background-image: url('../img/capo.jpg');
+    background-repeat: no-repeat;
+    background-size: 106%;
+    padding: 16%;
+}
+.besti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: left; 
+}
+.bestii{
+    padding-right: 0%;
+    text-align: left;
+}
+.best{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left; 
+}
+.best:hover{
+    color: rgb(253, 163, 27);
+}
+.nli{
+    background-color: rgb(234, 245, 248);
+    list-style-type: none;
+    margin: 0;
+    margin-top: 5%;
+    padding-top: 6%;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(234, 245, 248);
+    padding: 10%;
+    margin: 0;
+    padding-top: 8%;
+    
+}
+
+.coolu{
+
+   background-color: rgb(255, 255, 255);
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 2%;
+          
+}
+.pret{
+
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.azul{
+    color: rgb(23, 83, 247);
+    font-size: 50px;
+
+}
+.prin{
+    font-size: 20px;
+}
+.get{
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 115, 233);
+    text-decoration: none;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 100px;
+
+}
+.get:hover{
+    color: rgb(24, 115, 233);
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(24, 115, 233);
+
+}
+.quarte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.transp{
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.transp:hover{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    cursor:zoom-in;
+   
+
+}
+.pneu{
+    position: relative;
+    background-image: url('../img/pneu.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12.5%;
+    padding-bottom: 4%;
+    padding-left: 13%;
+    color: rgba(255, 255, 255, 0);
+
+}
+
+
+.pneu:hover{
+    background-image: url("../img/azul.jpg");
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12.5%;
+    padding-bottom: 4%;   
+}
+.transpp{
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.transpp:hover{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    cursor:zoom-in;
+   
+}
+.oleo{
+    position: relative;
+    background-image: url('../img/oleo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12.5%;
+    padding-bottom: 4%;
+    margin-left: -1px;
+}
+
+
+.oleo:hover{
+
+    background-image: url("../img/azul.jpg");
+    cursor: pointer;
+    
+}
+.transppp{
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.transppp:hover{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    cursor:zoom-in;
+}
+.lateral{
+    position: relative;
+    background-image: url('../img/lateral.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12.5%;
+    padding-bottom: 4%;
+  
+}
+
+.lateral:hover{
+    background-image: url("../img/azul.jpg");
+    cursor: pointer;
+    
+}
+.transpppp{
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.transpppp:hover{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    cursor:zoom-in;
+}
+.rodav{
+    position: relative;
+    background-image: url('../img/rodav.jpg');
+    background-repeat: no-repeat;
+    background-size: 104%;
+    padding: 12.3%;
+    padding-bottom: 4%;  
+    margin-left: -2px;
+}
+.rodav:hover{
+    background-image: url("../img/azul.jpg");
+    cursor: pointer; 
+    padding: 12%;
+    padding-bottom: 4%;  
+    margin-left: -2px;  
+
+}
+.o-rodape{
+    background-color: rgb(57, 58, 58);
+    padding: 80px;
+    color: rgb(158, 167, 167);
+}
+.roda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.aires{ 
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+.pnt{
+    color: rgb(223, 139, 14);
+    font-weight: 900;
+    font-size: 35px;
+}
+.air{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.ive{
+    font-family: sans-serif;
+    color: rgb(158, 167, 167);
+    font-family: sans-serif;
+    font-size: 19px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.serv{
+   
+    padding-left: 12px;
+}
+
+.ser{
+    text-decoration: none;
+    color:  rgb(213, 214, 214);
+    font-size: 20px;
+    line-height: 50px;
+    list-style-type: none;
+    font-weight: bold;
+  
+}
+.ser:hover{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(253, 163, 27);
+    font-weight: bold;
+}
+
+.seri{
+    text-decoration: none;
+    color: rgb(213, 214, 214);
+    font-size: 20px;
+    line-height: 70px;
+    list-style-type: none;
+    font-weight: bold;
+    padding-top: 0px;
+   
+}
+.seri:hover{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(253, 163, 27);
+    font-weight: bold;
+}
+.ivee{
+    font-family: sans-serif;
+    color: rgb(158, 167, 167);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+.ays{
+    color:rgb(158, 167, 167);
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.pm{
+    color:rgb(213, 214, 214);
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.fim{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.fimm{
+    color: rgb(158, 167, 167);
+    text-decoration: none;
+}
+.fimm:hover{
+color: rgb(213, 214, 214);
+}
